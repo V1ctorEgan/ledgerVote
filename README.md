@@ -1,10 +1,13 @@
-Decentralized Voting System
+### Decentralized Voting System
+
 This project is a decentralized voting system consisting of three integrated components: a blockchain smart contract for secure voting logic, a backend server for data management and interaction, and a frontend web application for user interaction.
 
-Project Overview
+## Project Overview
+
 The decentralized voting system enables users to create and participate in transparent, tamper-proof elections. Votes are recorded on the blockchain via smart contracts, ensuring security and immutability. The backend handles user management, authentication, and serves as a bridge between the frontend and smart contract. The frontend provides a simple and intuitive UI for voters and administrators.
 
-Features
+## Features
+
 Blockchain-based voting with Solidity smart contracts
 
 Voter registration and authentication
@@ -22,11 +25,13 @@ Smart Contract
 Contains Solidity contracts for election creation, voter registration, vote casting, and tallying.
 Located in /smart-contract.
 
-Backend
+## Backend
+
 API server handling authentication, user management, and contract interaction.
 Located in /backend.
 
-Frontend
+## Frontend
+
 React-based web app providing the user interface for voters and admins.
 Located in /frontend.
 
@@ -35,19 +40,20 @@ Solidity, Foundry for smart contract development
 
 Node.js, Express.js for backend API
 
-Web3.js or Ethers.js for blockchain interaction
+Ethers.js for blockchain interaction
 
 React.js for frontend
 
-Ethereum-compatible blockchain (e.g., Goerli testnet or local Ganache)
+Ethereum-compatible blockchain (blockDAG)
 
-Getting Started
+## Getting Started
+
 Prerequisites
 Node.js (v16+)
 
 npm or yarn
 
-Hardhat or Foundry
+Foundry
 
 Ethereum wallet (MetaMask recommended)
 
@@ -57,7 +63,7 @@ Installation
 Clone the repository:
 
 bash
-git clone <repo-url>
+git clone https://github.com/V1ctorEgan/ledgerVote
 cd decentralized-voting-system
 Install dependencies:
 
