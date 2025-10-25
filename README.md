@@ -101,8 +101,6 @@ Election results are verifiable on the blockchain.
 Testing
 Smart contracts: Run tests from /smart-contract using Hardhat/Foundry:
 
-bash
-npx hardhat test
 Backend: Use Jest or preferred testing framework.
 
 Frontend: Run React testing library tests as configured.
@@ -118,3 +116,7 @@ Deploy on mainnet or decentralized L2 solutions
 
 Contributing
 Contributions are welcome! Please open issues or submit pull requests for improvements.
+
+## ledgerVote presentation
+
+(https://www.canva.com/design/DAG2ypq2Qzc/V1RV-9H8TPJXJePSxFngRA/view?utm_content=DAG2ypq2Qzc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5cd9ab709e)
