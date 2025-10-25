@@ -1,0 +1,25 @@
+{
+  "name": "backend-decent-voting-system",
+  "version": "1.0.0",
+  "description": "a decentralized voting system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "listener": "node event-listener.js",
+    "dev": "concurrently \"node server.js\" \"node event-listener.js\""
+  },
+  "author": "victor",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0",
+    "i": "^0.3.7",
+    "mongoose": "^8.19.2",
+    "redis": "^5.9.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
